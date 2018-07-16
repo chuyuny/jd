@@ -1,0 +1,56 @@
+*,
+::before,
+::after{
+    margin: 0;
+    padding: 0;
+    /*//去除移动端高亮显示*/
+    -webkit-tap-highlight-color: transparent;
+
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    font-size: 14px;
+    font-family: 微软雅黑,sans-serif;
+
+
+}
+
+input{
+    border: none;
+    -webkit-appearance: none;
+}
+a{
+    text-decoration: none;
+}
+ul,ol{
+    list-style: none;
+}
+.float_l{
+    float: left;
+}
+.float_r{
+    float: right;
+}
+/* 清除浮动 */
+.clearfix::before,
+.clearfix::after{
+    content:'';
+    display: block;
+    line-height: 0;
+    height: 0;
+    visibility: hidden;
+    clear: both;
+}
+
+/* 边框的 通用样式 */
+.b_l{
+    border-left: 1px solid #eee;
+}
+.b_r{
+    border-right: 1px solid #eee;
+}
+.b_t{
+    border-top: 1px solid #eee;
+}
+.b_b{
+    border-bottom: 1px solid #eee;
+}

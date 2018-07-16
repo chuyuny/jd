@@ -1,0 +1,259 @@
+.jd_container{
+    width: 100%;
+    min-height: 800px;
+    background-color: #eee;
+}
+.jd_header{
+    height: 40px;
+    width: 100%;
+    position: fixed;
+    z-index: 99;
+    background-color: rgba(201,21,35,0);
+    padding-left: 70px;
+    padding-right: 65px;
+}
+.jd_header .header_logo{
+    height: 36px;
+    width: 60px;
+    background: url("../images/sprites.png") no-repeat 0 -103px/200px 200px;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+.jd_header .header_glass{
+    height: 20px;
+    width: 20px;
+    background: url("../images/sprites.png") no-repeat -60px -109px/200px 200px;
+    position: absolute;
+    left: 78px;
+    top: 11px;
+}
+.jd_header .header_search{
+    height: 30px;
+    width: 100%;
+    border-radius: 15px;
+    margin-top: 5px;
+    padding-left: 30px;
+}
+.jd_header .header_logoin{
+    position: absolute;
+    right: 10px;
+    top: 0;
+    line-height: 40px;
+    font-size: 20px;
+    color: white;
+
+}
+/*轮播图*/
+.jd_banner{
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+.jd_banner .banner_images{
+    width: 1000%;
+}
+.jd_banner .banner_images li{
+    width: 10%;
+    float: left;
+}
+.jd_banner .banner_images li a{
+    display: block;
+    width: 100%;
+
+}
+.jd_banner .banner_images li a img{
+    display: block;
+    width: 100%;
+}
+.jd_banner .banner_index{
+    position: absolute;
+    left: 50%;
+    bottom: 10px;
+    margin-left: -44px;
+
+}
+.jd_banner .banner_index li{
+    float: left;
+    height: 6px;
+    width: 6px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+.jd_banner .banner_index li.current{
+    background-color: white;
+}
+.jd_nav {
+    width: 100%;
+    background-color: white;
+    border-bottom: 1px solid #ccc;
+    overflow:hidden;
+}
+.jd-nav ul{
+    width: 100%;
+    padding-left: 15px;
+}
+.jd_nav ul li{
+    width: 25%;
+    float: left;
+}
+.jd_nav ul li a{
+    display: block;
+    width: 100%;
+
+}
+.jd_nav ul li a img{
+    display: block;
+    width: 60%;
+}
+.jd_nav ul li a p{
+    margin: 7px 0;
+    color: red;
+}
+
+.jd_main{
+    width: 100%;
+    padding: 0 5px;
+    margin-top: 10px;
+}
+.jd_main .main_content{
+    width: 100%;
+    box-shadow: 0 0 2px #666;
+    background-color: white;
+    min-height: 150px;
+    margin-bottom: 5px;
+}
+.jd_main .main_content .content_top{
+    height: 32px;
+    width: 100%;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+.jd_main .main_content .content_bottom{
+    width: 100%;
+}
+
+.jd_main .main_content:nth-child(1) .content_top{
+    border-bottom: none;
+}
+.jd_main .main_content:nth-child(1) .content_top span{
+    float: left;
+    background: url("../images/seckill-icon.png");
+    background-size: 20px 25px;
+    height: 25px;
+    width: 20px;
+    margin-top: 3px;
+    margin-left: 5px;
+}
+.jd_main .main_content:nth-child(1) .content_top p{
+    color:  rgb(201, 21, 35);
+    margin-left: 5px;
+    line-height: 32px;
+    float: left;
+    margin-right: 3px;
+}
+.jd_main .main_content:nth-child(1) .content_top ul{
+    overflow: hidden;
+    padding-top: 8.5px;
+}
+.jd_main .main_content:nth-child(1) .content_top ul li{
+    float: left;
+    background-color: black;
+    color: white;
+    height: 15px;
+    width: 15px;
+    margin-left: 3px;
+    text-align: center;
+    line-height: 15px;
+}
+.jd_main .main_content:nth-child(1) .content_top ul li:nth-child(3n){
+    background-color: white;
+    color: black;
+    font-size: 18px;
+}
+.jd_main .main_content:nth-child(1) .content_top a{
+    display: inline-block;
+    color: #666666;
+    float: right;
+    text-align: center;
+    line-height: 32px;
+    margin-right: 5px;
+}
+.jd_main .main_content:nth-child(1) .content_bottom{
+    width: 100%;
+}
+.jd_main .main_content:nth-child(1) .content_bottom ul{
+    width: 100%;
+}
+.jd_main .main_content:nth-child(1) .content_bottom ul li{
+    float: left;
+    width: 33.33333333%;
+}
+.jd_main .main_content:nth-child(1) .content_bottom ul li a{
+    width: 100%;
+    display: block;
+    border-right: 1px solid gray;
+}
+.jd_main .main_content:nth-child(1) .content_bottom ul li:last-child a{
+    border-right: none;
+}
+.jd_main .main_content:nth-child(1) .content_bottom ul li a img{
+    width: 60%;
+    display: block;
+    margin: 0 auto;
+}
+.jd_main .main_content:nth-child(1) .content_bottom ul li p{
+    text-align: center;
+    padding: 3px 0;
+    font-size: 12px;
+}
+.jd_main .main_content:nth-child(1) .content_bottom ul li p:nth-child(2){
+    color: rgb(201,21,35);
+}
+.jd_main .main_content:nth-child(1) .content_bottom ul li p:nth-child(3){
+    color: black;
+    text-decoration: line-through;
+}
+.jd_main .main_content:nth-child(n+2) .content_top{
+    width: 100%;
+}
+.jd_main .main_content:nth-child(n+2) .content_top span{
+    color:rgb(201, 21, 35);
+    line-height: 32px;
+    margin-left: 15px;
+    position: relative;
+}
+.jd_main .main_content:nth-child(n+2) .content_top span::before{
+    content: "";
+    height: 15px;
+    width: 5px;
+    background-color: red;
+    position: absolute;
+    left: -8px;
+    top: 3px;
+}
+.jd_main .main_content:nth-child(n+2) .content_bottom{
+    width: 100%;
+}
+.jd_main .main_content:nth-child(n+2) .content_bottom ul{
+    width: 100%;
+}
+.jd_main .main_content:nth-child(n+2) .content_bottom ul li{
+    width: 50%;
+}
+.jd_main .main_content:nth-child(n+2) .content_bottom ul li a{
+    width: 100%;
+    display: block;
+}
+.jd_main .main_content:nth-child(n+2) .content_bottom ul li a img {
+    width: 100%;
+    display: block;
+}
+.jd_main .main_content:nth-child(n+2) .content_bottom ul li:nth-child(n+2) a img{
+    height: 43px;
+    width: 75.5px;
+    /*float: right;*/
+    margin: 1px auto;
+
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>Title</title>
+    <style>
+        html,body{
+            width: 100%;
+
+        }
+        body{
+            background-color: hotpink;
+            height: 600px;
+        }
+        div{
+            background-color: #666666;
+            height: 50%;
+            width: 50%;
+            margin: 30px auto;
+        }
+    </style>
+    <script src="js.js"></script>
+    <!--<script src="js.js"></script>-->
+    <script>
+        window.onload =function () {
+            var div = document.querySelector('div');
+            fex_Tap(div, function (e) {
+                console.log(e);
+            });
+        }
+    </script>
+</head>
+<body>
+<div></div>
+</body>
+</html>
